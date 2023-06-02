@@ -1,38 +1,43 @@
 <!DOCTYPE html>
 <html lang="en">
-<head>
-    <meta charset="UTF-8">
-    <meta http-equiv="X-UA-Compatible" content="IE=edge">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
     <title>Etch</title>
-    <link rel="stylesheet" href="/style.css">
-</head>
-<body>
-    <h1>Etch a Sketch</h1>
-<div class="cont">
-    <div id="color-ajustment">
-        <input type="color" id='color-range' value="#000000">
-        <button id="selectColor">Color</button>
-        <button id='grey-shades'>Shading</button>
-        <button id='rainbow'>RGB</button>
+    <link rel="stylesheet" href="/style.css" />
+    <script src="/script.js" defer></script>
+  </head>
+  <body>
+    <header>
+      <h1>Etch a Sketch</h1>
+    </header>
+    <main>
+      <div class="color-adjustment">
+        <input type="color" id="color-range" value="#000000" />
+        <button id="select-color">Select Color</button>
+        <button id="gray-scale">Gray Scale</button>
+        <button id="rainbow">RGB</button>
 
-        <input type="range" id='grid-size' min="1" max="64" value="16" step="1">
-        <p id="grid">16x16</p>
+        <input
+          type="range"
+          id="grid-size"
+          min="1"
+          max="64"
+          value="16"
+          step="1"
+        />
+        <p id="grid-size-text">16x16</p>
+      </div>
 
-    </div>
+      <div id="playground"></div>
+      <div class="color-adjustment">
+        <button id="eraser">Eraser</button>
+        <button id="reset-grid">Reset Grid</button>
+        <button id="randomize">Randomize</button>
+      </div>
+    </main>
+    <footer><p>made by <a href="https://github.com/Schismond">schismond</p><img src="/git.png" alt="github logo" class="w-8 aspect-square"></a></footer>
+  </div>
 
-    <div id="playground">
-
-    </div>
-    <div id="color-ajustment">
-        <button id='eraser'>Eraser</button>
-        <button id="reset">reset</button>
-        <button id="randomise">randomise</button>
-    </div>
-</div>
-<footer>
-    made by <a href="https://www.github.com/schismond/" target="_blank"><strong>Schismond</strong></a>
-</footer>
-    <script src="/script.js"></script>
-</body>
+  </body>
 </html>

@@ -1,6 +1,6 @@
-# Odin-Dashboard
+# Odin-Etch A Sketch 
 
-This is a simple landing page built as a part of [The Odin Project](https://www.theodinproject.com/)'s curriculum. The website is built using HTML and CSS and JS.
+This is Etch A Sketch board built as a part of [The Odin Project](https://www.theodinproject.com/)'s curriculum. The website is built using HTML and CSS and JS.
 
 ## Features
 

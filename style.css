@@ -26,7 +26,6 @@ img{
 
 footer{
   font-size : 24px;
-  text-align: center;
   width: 100vw ;
   height: 2em ;
   display : flex ;
@@ -38,9 +37,7 @@ a{
     text-decoration: none;
     color:#003B4A ;
     padding: 4px;
-    border-radius:6px;
 }
-
 
 main{
     display: flex;
@@ -50,22 +47,20 @@ main{
 
 button , input{
     font-weight: bold;
-    height: 60px;
     margin-top: 12px;
-    font-size: 1.5rem;   
-    border: none;
+    font-size: 1.5rem;
     cursor: pointer;
-    outline: none;
 }
 
 button{
     width: 10rem;
+    padding: 16px 0px;
     border: solid 1px gray;
     border-radius: 15px;
     cursor: pointer;
 }
 
-button:hover{
+button:hover , .active , .button:hover {
     background-color: black;
     color: white;
 }
@@ -81,8 +76,8 @@ button:hover{
     width: 80px;
     height: 80px;
     border: none;
-    cursor: pointer;
     margin: auto;
+    cursor: pointer;
 }
 
 #color-range::-webkit-color-swatch {
@@ -93,20 +88,11 @@ button:hover{
     -moz-box-shadow: 0px 0px 10px 0px rgba(0,0,0,0.5);
 }
 
-#grid{
-    font-size: 1.5rem;
-}
-
 #playground{
-    width: 500px;
-    height: 500px;
+    width: 35vw;
+    aspect-ratio: 1/1;
     box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
     display: grid;
-}
-
-.active, .button:hover {
-    background-color: #000;
-    color: white;
 }
 
 .box{

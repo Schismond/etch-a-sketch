@@ -19,7 +19,7 @@ By completing this lesson, learners will have a solid foundation in front-end we
 
 ## Live Demo
 
-- [Click Here]( https://schismond.github.io/etch-a-sketch/)
+- [Netlify App](https://etch-a-sketch-schismond.netlify.app)
 
 ## Show your support
 
